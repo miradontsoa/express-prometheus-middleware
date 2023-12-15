@@ -1,6 +1,6 @@
 {
   "name": "express-prometheus-middleware",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "RED/USE metrics for express applications",
   "keywords": [
     "express",
@@ -9,6 +9,7 @@
     "monit"
   ],
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "files": [
     "src/"
   ],
@@ -38,7 +39,7 @@
   },
   "peerDependencies": {
     "express": "4.x",
-    "prom-client": ">= 10.x <= 13.x"
+    "prom-client": ">= 10.x <= 15.x"
   },
   "optionalDependencies": {
     "prometheus-gc-stats": "^0.6.2"
