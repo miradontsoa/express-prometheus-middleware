@@ -2,7 +2,7 @@
 
 ## Important note
 
-This is a fork of https://github.com/joao-fontenele/express-prometheus-middleware with updated version of prom-client, removing warning when used with the latest prom-client version
+This is a fork of https://github.com/joao-fontenele/express-prometheus-middleware with updated version of prom-client, removing warning when used with the latest prom-client version. Typescript file from https://www.npmjs.com/package/@isaacs/express-prometheus-middleware is also added.
 
 ## About
 
@@ -19,9 +19,11 @@ The metrics exposed allows to calculate common RED (Request, Error rate, Duratio
 ## Install
 
 ``` bash
-yarn add express-prometheus-middleware
+yarn add @mira/express-prometheus-middleware
 # or
-npm i --save express-prometheus-middleware
+npm i --save @mira/express-prometheus-middleware
+# or
+pnpm i @mira/express-prometheus-middleware
 ```
 
 ## Usage
