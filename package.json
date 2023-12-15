@@ -45,7 +45,7 @@
     "prom-client": ">= 10.x <= 15.x"
   },
   "optionalDependencies": {
-    "prometheus-gc-stats": "^0.6.2"
+    "prometheus-gc-stats": "^1.1.0"
   },
   "bugs": {
     "url": "https://github.com/miradontsoa/express-prometheus-middleware/issues"
