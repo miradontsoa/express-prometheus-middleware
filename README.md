@@ -1,5 +1,11 @@
 # Express Prometheus Middleware
 
+## Important note
+
+This is a fork of https://github.com/joao-fontenele/express-prometheus-middleware with updated version of prom-client, removing warning when used with the latest prom-client version
+
+## About
+
 [![npm](https://img.shields.io/npm/v/express-prometheus-middleware.svg)](https://www.npmjs.com/package/express-prometheus-middleware)
 [![Dependency Status](https://david-dm.org/joao-fontenele/express-prometheus-middleware.svg)](https://david-dm.org/joao-fontenele/express-prometheus-middleware)
 [![devDependency Status](https://david-dm.org/joao-fontenele/express-prometheus-middleware/dev-status.svg)](https://david-dm.org/joao-fontenele/express-prometheus-middleware#info=devDependencies)
