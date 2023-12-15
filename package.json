@@ -1,5 +1,5 @@
 {
-  "name": "express-prometheus-middleware",
+  "name": "@miradontsoa/express-prometheus-middleware",
   "version": "1.2.2",
   "description": "RED/USE metrics for express applications",
   "keywords": [
@@ -13,8 +13,11 @@
   "files": [
     "src/"
   ],
-  "repository": "https://github.com/miradontsoa/express-prometheus-middleware.git",
-  "author": "Forked by Mirado Andria <mirado.work> / Original Author: João Paulo Fontenele Brito <jpfb@icomp.ufam.edu.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miradontsoa/express-prometheus-middleware.git"
+  },
+  "author": "Forked by Mirado Andria <mirado.work>",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -43,5 +46,9 @@
   },
   "optionalDependencies": {
     "prometheus-gc-stats": "^0.6.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/miradontsoa/express-prometheus-middleware/issues"
+  },
+  "homepage": "https://github.com/miradontsoa/express-prometheus-middleware#readme"
 }
