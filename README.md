@@ -19,11 +19,11 @@ The metrics exposed allows to calculate common RED (Request, Error rate, Duratio
 ## Install
 
 ``` bash
-yarn add @mira/express-prometheus-middleware
+yarn add @miradontsoa/express-prometheus-middleware
 # or
-npm i --save @mira/express-prometheus-middleware
+npm i --save @miradontsoa/express-prometheus-middleware
 # or
-pnpm i @mira/express-prometheus-middleware
+pnpm i @miradontsoa/express-prometheus-middleware
 ```
 
 ## Usage
